@@ -2,6 +2,7 @@
 using System.Net;
 using System.IO;
 using System.Collections.Generic;
+using System.Collections.Concurrent;
 
 namespace DownloaderLibrary
 {
@@ -53,6 +54,23 @@ namespace DownloaderLibrary
                 // This exception is passed on to the caller
                 // This assumes that downloading the other files does not make sense if one of the files fail
                 downloadResults.Add(Download(urlList[i]));
+            }
+            return downloadResults;
+        }
+
+
+        /*
+          * Streaming download using BlockingCollection
+          */
+        public List<byte[]> Download(BlockingCollection<KeyValuePair<string, string>> urlPathCollection)
+        {
+            List<byte[]> downloadResults = new List<byte[]>();
+            for (int i = 0; i < urlPathCollection.Count; i++)
+            {
+                // This throws an WebException when one of the downloads fail
+                // This exception is passed on to the caller
+                // This assumes that downloading the other files does not make sense if one of the files fail
+                downloadResults.Add(Download(urlPathCollection[i]));
             }
             return downloadResults;
         }
