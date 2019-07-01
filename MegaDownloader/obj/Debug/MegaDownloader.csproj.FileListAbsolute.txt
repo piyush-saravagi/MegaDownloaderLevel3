@@ -1,0 +1,27 @@
+E:\.NET Projects\MegaDownloader\MegaDownloader\bin\Debug\MegaDownloader.exe.config
+E:\.NET Projects\MegaDownloader\MegaDownloader\bin\Debug\MegaDownloader.exe
+E:\.NET Projects\MegaDownloader\MegaDownloader\bin\Debug\MegaDownloader.pdb
+E:\.NET Projects\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.csprojAssemblyReference.cache
+E:\.NET Projects\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.csproj.CoreCompileInputs.cache
+E:\.NET Projects\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.exe
+E:\.NET Projects\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.pdb
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\bin\Debug\MegaDownloader.exe.config
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\bin\Debug\MegaDownloader.exe
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\bin\Debug\MegaDownloader.pdb
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\bin\Debug\DownloaderLibrary.dll
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\bin\Debug\DownloaderLibrary.pdb
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.csprojAssemblyReference.cache
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.csproj.CoreCompileInputs.cache
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.csproj.CopyComplete
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.exe
+D:\Projects\dotNET\MegaDownloader\MegaDownloader\obj\Debug\MegaDownloader.pdb
+E:\Projects\C# Projects\Downloader\MegaDownloader\bin\Debug\MegaDownloader.exe.config
+E:\Projects\C# Projects\Downloader\MegaDownloader\bin\Debug\MegaDownloader.exe
+E:\Projects\C# Projects\Downloader\MegaDownloader\bin\Debug\MegaDownloader.pdb
+E:\Projects\C# Projects\Downloader\MegaDownloader\bin\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\Downloader\MegaDownloader\bin\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\Downloader\MegaDownloader\obj\Debug\MegaDownloader.csprojAssemblyReference.cache
+E:\Projects\C# Projects\Downloader\MegaDownloader\obj\Debug\MegaDownloader.csproj.CoreCompileInputs.cache
+E:\Projects\C# Projects\Downloader\MegaDownloader\obj\Debug\MegaDownloader.csproj.CopyComplete
+E:\Projects\C# Projects\Downloader\MegaDownloader\obj\Debug\MegaDownloader.exe
+E:\Projects\C# Projects\Downloader\MegaDownloader\obj\Debug\MegaDownloader.pdb

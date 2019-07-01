@@ -1,0 +1,11 @@
+D:\Projects\dotNET\MegaDownloader\DownloaderLibrary\bin\Debug\DownloaderLibrary.dll
+D:\Projects\dotNET\MegaDownloader\DownloaderLibrary\bin\Debug\DownloaderLibrary.pdb
+D:\Projects\dotNET\MegaDownloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\dotNET\MegaDownloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.dll
+D:\Projects\dotNET\MegaDownloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\Downloader\DownloaderLibrary\bin\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\Downloader\DownloaderLibrary\bin\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.csprojAssemblyReference.cache
+E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.csproj.CoreCompileInputs.cache
+E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.pdb
