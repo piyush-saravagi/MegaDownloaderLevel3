@@ -4,3 +4,7 @@ D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\StreamingD
 D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.csproj.CoreCompileInputs.cache
 D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.exe
 D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.pdb
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\DownloaderLibrary.dll
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\DownloaderLibrary.pdb
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.csprojAssemblyReference.cache
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.csproj.CopyComplete

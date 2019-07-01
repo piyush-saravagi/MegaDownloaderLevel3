@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DownloaderLibrary\DownloaderLibrary.csproj">
+      <Project>{2d3437bf-86b7-48e1-8f36-70b91cae34f1}</Project>
+      <Name>DownloaderLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
