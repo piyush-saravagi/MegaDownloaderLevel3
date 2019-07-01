@@ -9,3 +9,8 @@ E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary
 E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.csproj.CoreCompileInputs.cache
 E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.dll
 E:\Projects\C# Projects\Downloader\DownloaderLibrary\obj\Debug\DownloaderLibrary.pdb
+D:\Projects\dotNET\MegaDownloaderLevel2\DownloaderLibrary\bin\Debug\DownloaderLibrary.dll
+D:\Projects\dotNET\MegaDownloaderLevel2\DownloaderLibrary\bin\Debug\DownloaderLibrary.pdb
+D:\Projects\dotNET\MegaDownloaderLevel2\DownloaderLibrary\obj\Debug\DownloaderLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\dotNET\MegaDownloaderLevel2\DownloaderLibrary\obj\Debug\DownloaderLibrary.dll
+D:\Projects\dotNET\MegaDownloaderLevel2\DownloaderLibrary\obj\Debug\DownloaderLibrary.pdb

@@ -1,0 +1,6 @@
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\StreamingDownloader.exe.config
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\StreamingDownloader.exe
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\StreamingDownloader.pdb
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.csproj.CoreCompileInputs.cache
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.exe
+D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.pdb

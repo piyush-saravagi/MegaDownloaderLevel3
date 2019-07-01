@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.IO;
+using System.Collections.Generic;
 
 namespace DownloaderLibrary
 {
@@ -43,15 +44,15 @@ namespace DownloaderLibrary
         /*
          * Overloaded function to download multiple files
          */
-        public byte[][] Download(string[] urlList)
+        public List<byte[]> Download(List<string> urlList)
         {
-            byte[][] downloadResults = new byte[urlList.Length][];
-            for (int i = 0; i < urlList.Length; i++)
+            List<byte[]> downloadResults = new List<byte[]>();
+            for (int i = 0; i < urlList.Count; i++)
             {
                 // This throws an WebException when one of the downloads fail
                 // This exception is passed on to the caller
                 // This assumes that downloading the other files does not make sense if one of the files fail
-                downloadResults[i] = Download(urlList[i]);
+                downloadResults.Add(Download(urlList[i]));
             }
             return downloadResults;
         }

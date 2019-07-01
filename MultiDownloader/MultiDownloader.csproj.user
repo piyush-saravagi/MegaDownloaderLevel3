@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>3 "http://www.lorempixel.com/500/500" "http://www.lorempixel.com/500/500" "http://www.lorempixel.com/500/500" "E:/demo_data.png" "E:/demo_data_1.png" "E:/demo_data_2.png" "r"</StartArguments>
+    <StartArguments>3 "http://www.lorempixel.com/500/500" "http://www.lorempixel.com/500/500" "http://www.lorempixel.com/500/500" "D:/demo_data.png" "D:/demo_data_1.png" "D:/demo_data_2.png" "r"</StartArguments>
   </PropertyGroup>
 </Project>

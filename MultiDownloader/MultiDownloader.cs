@@ -1,11 +1,13 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 using DownloaderLibrary;
+
 namespace MultiDownloader
 {
-    class MultiDownloader
+    public class MultiDownloader
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             /*  
              * The following argument parsing is specific to THIS console application. 
@@ -19,12 +21,12 @@ namespace MultiDownloader
              */
 
             int numOfDownloads = Convert.ToInt32(args[0]);
-            string[] urlList = new string[numOfDownloads];
-            string[] pathList = new string[numOfDownloads];
+            List<string> urlList = new List<string>();
+            List<string> pathList = new List<string>();
             for (int i = 0; i < numOfDownloads; i++)
             {
-                urlList[i] = args[i + 1];
-                pathList[i] = args[i + 1 + numOfDownloads];
+                urlList.Add(args[i + 1]);
+                pathList.Add(args[i + 1 + numOfDownloads]);
             }
 
             bool replace = false;
@@ -39,7 +41,7 @@ namespace MultiDownloader
               * and call the Download function passing in the parameters
               */
             Downloader downloader = new Downloader();
-            byte[][] downloadedFiles = downloader.Download(urlList);
+            List<byte[]> downloadedFiles = downloader.Download(urlList);
 
             int j = 0;
             foreach (var file in downloadedFiles)
