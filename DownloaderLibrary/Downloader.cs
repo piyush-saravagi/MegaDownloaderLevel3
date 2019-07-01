@@ -4,6 +4,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace DownloaderLibrary
 {
@@ -85,9 +86,8 @@ namespace DownloaderLibrary
 
                         try
                         {
-                            downloadedFile = downloader.Download(url);
+                            downloadedFile = Download(url);
                             Console.WriteLine("Successfully downloaded file from url: " + url);
-                            Thread.Sleep(5000);
                         }
                         catch (WebException webException)
                         {

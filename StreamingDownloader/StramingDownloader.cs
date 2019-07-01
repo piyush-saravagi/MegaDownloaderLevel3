@@ -35,11 +35,13 @@ namespace StreamingDownloader
                 // Indicating that the task has completed
                 urlPathPairCollection.CompleteAdding();
             });
-            
+
+            Downloader downloader = new Downloader();
+
             // This task uses the urls and the paths from the streaming list and downloads files
             Task consumer = Task.Run(() =>
             {
-                Downloader downloader = new Downloader();
+                
 
                 //Continue till the addition of elements is not complete and the collection is not empty
                 while (!urlPathPairCollection.IsCompleted) {
