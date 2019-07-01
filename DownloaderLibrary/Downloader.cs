@@ -3,6 +3,7 @@ using System.Net;
 using System.IO;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
+using System.Threading.Tasks;
 
 namespace DownloaderLibrary
 {
@@ -62,15 +63,73 @@ namespace DownloaderLibrary
         /*
           * Streaming download using BlockingCollection
           */
-        public List<byte[]> Download(BlockingCollection<KeyValuePair<string, string>> urlPathCollection)
+        public List<byte[]> Download(BlockingCollection<KeyValuePair<string, string>> urlPathPairCollection)
         {
             List<byte[]> downloadResults = new List<byte[]>();
-            for (int i = 0; i < urlPathCollection.Count; i++)
+
+
+            Task consumer = Task.Run(() =>
+            {
+                //Continue till the addition of elements is not complete and the collection is not empty
+                while (!urlPathPairCollection.IsCompleted)
+                {
+                    bool elementInCollection = false;
+                    elementInCollection = urlPathPairCollection.TryTake(out KeyValuePair<string, string> pair);
+                    // next steps should be done only if we were able to extract an element from the collection
+                    if (elementInCollection)
+                    {
+                        string url = pair.Key;
+                        string path = pair.Value;
+                        byte[] downloadedFile = null;
+                        bool downloadSuccess = true;
+
+                        try
+                        {
+                            downloadedFile = downloader.Download(url);
+                            Console.WriteLine("Successfully downloaded file from url: " + url);
+                            Thread.Sleep(5000);
+                        }
+                        catch (WebException webException)
+                        {
+                            // Application specific handling
+                            Console.WriteLine("Error: Unable to download file from the url");
+                            Console.WriteLine(webException);    // Provide more details
+                            downloadSuccess = false;
+                        }
+
+
+                        // Save file to the path
+                        if (downloadSuccess)
+                        {
+                            // Save to file
+                            try
+                            {
+                                File.WriteAllBytes(path, downloadedFile);
+                                Console.WriteLine("Successfully saved file to " + path);
+                            }
+                            catch (IOException fileWriteException)
+                            {
+                                Console.WriteLine("Error: Unable to save the downloaded file");
+                                Console.WriteLine(fileWriteException);
+                            }
+                        }
+                    }
+
+                }
+            });
+
+
+
+
+
+
+
+            for (int i = 0; i < urlPathPairCollection.Count; i++)
             {
                 // This throws an WebException when one of the downloads fail
                 // This exception is passed on to the caller
                 // This assumes that downloading the other files does not make sense if one of the files fail
-                downloadResults.Add(Download(urlPathCollection[i]));
+                downloadResults.Add(Download(urlPathPairCollection[i]));
             }
             return downloadResults;
         }
