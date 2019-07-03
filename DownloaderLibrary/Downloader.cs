@@ -117,21 +117,14 @@ namespace DownloaderLibrary
 
                 }
             });
-
-
-
-
-
-
-
-            for (int i = 0; i < urlPathPairCollection.Count; i++)
-            {
-                // This throws an WebException when one of the downloads fail
-                // This exception is passed on to the caller
-                // This assumes that downloading the other files does not make sense if one of the files fail
-                downloadResults.Add(Download(urlPathPairCollection[i]));
-            }
             return downloadResults;
+        }
+
+
+        //Downloader for the service
+        public dynamic Download(IEnumerable<string> urls) {
+            Thread.
+            return null;
         }
     }
 }
