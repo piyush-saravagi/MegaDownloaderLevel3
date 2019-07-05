@@ -9,16 +9,34 @@ using System.Threading.Tasks;
 using System.Threading;
 using DownloaderLibrary;
 
+
+
+namespace StreamingDownlaoder
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+
+        }
+    }
+}
+/*
 namespace StreamingDownloader
 {
     class Program
     {
-        
+
 
         static void Main(string[] args)
         {
             BlockingCollection<KeyValuePair<string, string>> urlPathPairCollection = new BlockingCollection<KeyValuePair<string, string>>();
 
+
+            Task.Run(() =>
+            {
+
+            })
             //This task adds urls to the urlList 
             Task.Run(() =>
             {
@@ -41,14 +59,16 @@ namespace StreamingDownloader
             // This task uses the urls and the paths from the streaming list and downloads files
             Task consumer = Task.Run(() =>
             {
-                
+
 
                 //Continue till the addition of elements is not complete and the collection is not empty
-                while (!urlPathPairCollection.IsCompleted) {
+                while (!urlPathPairCollection.IsCompleted)
+                {
                     bool elementInCollection = false;
                     elementInCollection = urlPathPairCollection.TryTake(out KeyValuePair<string, string> pair);
                     // next steps should be done only if we were able to extract an element from the collection
-                    if (elementInCollection) {
+                    if (elementInCollection)
+                    {
                         string url = pair.Key;
                         string path = pair.Value;
                         byte[] downloadedFile = null;
@@ -57,7 +77,7 @@ namespace StreamingDownloader
                         try
                         {
                             downloadedFile = downloader.Download(url);
-                            Console.WriteLine("Successfully downloaded file from url: "+ url);
+                            Console.WriteLine("Successfully downloaded file from url: " + url);
                             Thread.Sleep(5000);
                         }
                         catch (WebException webException)
@@ -85,14 +105,15 @@ namespace StreamingDownloader
                             }
                         }
                     }
-                    
+
                 }
             });
 
-            
+
             consumer.Wait();
             Console.WriteLine("Enter any key to exit");
             Console.ReadKey();
         }
     }
 }
+*/

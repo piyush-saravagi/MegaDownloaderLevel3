@@ -35,3 +35,13 @@ D:\Projects\dotNET\MegaDownloaderLevel2\MegaDownloader\obj\Debug\MegaDownloader.
 D:\Projects\dotNET\MegaDownloaderLevel2\MegaDownloader\obj\Debug\MegaDownloader.csproj.CopyComplete
 D:\Projects\dotNET\MegaDownloaderLevel2\MegaDownloader\obj\Debug\MegaDownloader.exe
 D:\Projects\dotNET\MegaDownloaderLevel2\MegaDownloader\obj\Debug\MegaDownloader.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\bin\Debug\MegaDownloader.exe.config
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\bin\Debug\MegaDownloader.exe
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\bin\Debug\MegaDownloader.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\bin\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\bin\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\obj\Debug\MegaDownloader.csprojAssemblyReference.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\obj\Debug\MegaDownloader.csproj.CoreCompileInputs.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\obj\Debug\MegaDownloader.csproj.CopyComplete
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\obj\Debug\MegaDownloader.exe
+E:\Projects\C# Projects\MegaDownloaderLevel3\MegaDownloader\obj\Debug\MegaDownloader.pdb

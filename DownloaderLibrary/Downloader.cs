@@ -63,7 +63,7 @@ namespace DownloaderLibrary
 
         /*
           * Streaming download using BlockingCollection
-          */
+          
         public List<byte[]> Download(BlockingCollection<KeyValuePair<string, string>> urlPathPairCollection)
         {
             List<byte[]> downloadResults = new List<byte[]>();
@@ -120,11 +120,59 @@ namespace DownloaderLibrary
             return downloadResults;
         }
 
+        */
 
         //Downloader for the service
-        public dynamic Download(IEnumerable<string> urls) {
-            Thread.
-            return null;
+        public IEnumerable<dynamic> Download(BlockingCollection<string> urls)
+        {
+            //Sample delay before downloading
+            //Console.WriteLine("Sleeping before actual download operations");
+            //Thread.Sleep(1000);
+
+            IEnumerable<dynamic> downloadResult = new List<dynamic>();
+
+
+            while (!urls.IsCompleted && urls.Count != 0)
+            {
+                bool takeSucc = urls.TryTake(out string url);
+                if (takeSucc)
+                {
+                    Dictionary<string, dynamic> result = new Dictionary<string, dynamic>();
+
+                    try
+                    {
+                        var watch = new System.Diagnostics.Stopwatch();
+                        watch.Start();
+                        byte[] downloadedFile = Download(url);
+                        watch.Stop();
+
+                        result.Add("Status", "success");
+                        result.Add("Result", downloadedFile);
+                        result.Add("Error", null);
+                        result.Add("Size", downloadedFile.Length);  // Size in bytes
+                        result.Add("TimeToDownload", watch.ElapsedMilliseconds);
+                    }
+                    catch (WebException we)
+                    {
+                        result.Add("Status", "fail");
+                        result.Add("Result", null);
+                        result.Add("Error", we);
+                        result.Add("Size", 0);
+                        result.Add("TimeToDownload", 0);
+                    }
+                    // Not catching other exceptions as those are unprecedented
+                    // it would be best to let the caller kmow that these occurred
+                    yield return result;
+                }
+            }
+
+            //might comment out
+            if (urls.IsCompleted)
+            {
+                yield break;
+            }
+
+
         }
     }
 }

@@ -28,3 +28,13 @@ D:\Projects\dotNET\MegaDownloaderLevel2\MultiDownloader\bin\Debug\MultiDownloade
 D:\Projects\dotNET\MegaDownloaderLevel2\MultiDownloader\bin\Debug\DownloaderLibrary.dll
 D:\Projects\dotNET\MegaDownloaderLevel2\MultiDownloader\bin\Debug\DownloaderLibrary.pdb
 D:\Projects\dotNET\MegaDownloaderLevel2\MultiDownloader\obj\Debug\MultiDownloader.csproj.CopyComplete
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\bin\Debug\MultiDownloader.exe.config
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\bin\Debug\MultiDownloader.exe
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\bin\Debug\MultiDownloader.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\bin\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\bin\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\obj\Debug\MultiDownloader.csprojAssemblyReference.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\obj\Debug\MultiDownloader.csproj.CoreCompileInputs.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\obj\Debug\MultiDownloader.csproj.CopyComplete
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\obj\Debug\MultiDownloader.exe
+E:\Projects\C# Projects\MegaDownloaderLevel3\MultiDownloader\obj\Debug\MultiDownloader.pdb

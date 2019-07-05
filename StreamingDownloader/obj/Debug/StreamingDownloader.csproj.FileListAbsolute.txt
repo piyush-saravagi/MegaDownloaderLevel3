@@ -8,3 +8,13 @@ D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\Downloader
 D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\bin\Debug\DownloaderLibrary.pdb
 D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.csprojAssemblyReference.cache
 D:\Projects\dotNET\MegaDownloaderLevel2\StreamingDownloader\obj\Debug\StreamingDownloader.csproj.CopyComplete
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\obj\Debug\StreamingDownloader.csprojAssemblyReference.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\obj\Debug\StreamingDownloader.csproj.CoreCompileInputs.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\obj\Debug\StreamingDownloader.exe
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\obj\Debug\StreamingDownloader.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\bin\Debug\StreamingDownloader.exe.config
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\bin\Debug\StreamingDownloader.exe
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\bin\Debug\StreamingDownloader.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\bin\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\bin\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\StreamingDownloader\obj\Debug\StreamingDownloader.csproj.CopyComplete

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDownloader", "MultiDow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingDownloader", "StreamingDownloader\StreamingDownloader.csproj", "{C13381BD-ED54-4533-A898-614826B72225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "ConsoleApp1\Service.csproj", "{4FB56D24-7C4E-415B-9B0C-C8A6E5F5BE1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "ConsoleApp2\Client.csproj", "{A78E1130-18B7-47BA-B9BE-296C11DF5CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C13381BD-ED54-4533-A898-614826B72225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C13381BD-ED54-4533-A898-614826B72225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C13381BD-ED54-4533-A898-614826B72225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB56D24-7C4E-415B-9B0C-C8A6E5F5BE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB56D24-7C4E-415B-9B0C-C8A6E5F5BE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB56D24-7C4E-415B-9B0C-C8A6E5F5BE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB56D24-7C4E-415B-9B0C-C8A6E5F5BE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78E1130-18B7-47BA-B9BE-296C11DF5CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78E1130-18B7-47BA-B9BE-296C11DF5CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78E1130-18B7-47BA-B9BE-296C11DF5CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78E1130-18B7-47BA-B9BE-296C11DF5CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

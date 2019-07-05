@@ -1,0 +1,10 @@
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\obj\Debug\Service.csprojAssemblyReference.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\obj\Debug\Service.csproj.CoreCompileInputs.cache
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\bin\Debug\Service.dll.config
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\bin\Debug\Service.dll
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\bin\Debug\Service.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\bin\Debug\DownloaderLibrary.dll
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\bin\Debug\DownloaderLibrary.pdb
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\obj\Debug\Service.csproj.CopyComplete
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\obj\Debug\Service.dll
+E:\Projects\C# Projects\MegaDownloaderLevel3\ConsoleApp1\obj\Debug\Service.pdb
